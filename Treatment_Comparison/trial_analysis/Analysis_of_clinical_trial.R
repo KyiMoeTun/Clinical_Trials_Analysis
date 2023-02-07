@@ -1,3 +1,7 @@
+#the following tutorial has been taken from the Clinical Trial Data Analysis Using SAS and R
+#Demonstration purposes only
+#t-test, Wilcoxon test, Welch test, F-tests are implemented in this r code
+
 
 
 #read the data from the above folder
