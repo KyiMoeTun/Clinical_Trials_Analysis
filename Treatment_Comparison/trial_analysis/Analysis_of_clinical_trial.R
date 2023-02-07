@@ -1,3 +1,4 @@
+#data frame dictionaries are described in the previous python code
 #the following tutorial has been taken from the Clinical Trial Data Analysis Using R and SAS
 #Demonstration purposes only
 #t-test, Wilcoxon test, Welch test, F-tests are implemented in this r code

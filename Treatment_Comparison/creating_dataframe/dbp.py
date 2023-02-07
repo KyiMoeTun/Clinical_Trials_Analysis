@@ -1,3 +1,10 @@
+#Column Definition 
+#dbp -> diastolic blood pressure in mmHg
+#The diastolic blood pressure in mmHg over the course of 1 month, 2 months, etc. is 
+#represented by dbp1, dbp2, etc.
+#A -> (new drug)
+#B -> (placebo)
+
 import csv
 
 # Open the raw text file for reading
