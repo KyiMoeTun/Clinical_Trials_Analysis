@@ -25,9 +25,10 @@ t.test(diff~TRT, dat, var.equal=F)
 var.test(diff~TRT, dat)
 
 #Wilcoxon rank-sum test
-#Assuming the data is not normal and unequal variance
+#Assuming the data is not normal
 wilcox.test(diff~TRT, dat)
 
+#Assuming the data is normal
 #One-sided t-test
 diff.A = dat[dat$TRT=="A", ]$diff
 diff.B = dat[dat$TRT=="B", ]$diff
