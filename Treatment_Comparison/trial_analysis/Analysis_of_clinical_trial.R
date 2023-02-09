@@ -35,6 +35,12 @@ diff.A = dat[dat$TRT=="A", ]$diff
 diff.B = dat[dat$TRT=="B", ]$diff
 t.test(diff.A, diff.B, alternative="less")
 
+#One Way-ANOVA for time changes
+aggregate(dat[, 3:7], list(TRT=dat$TRT), mean)
+
+head(dat)
+
+
 
 
 
