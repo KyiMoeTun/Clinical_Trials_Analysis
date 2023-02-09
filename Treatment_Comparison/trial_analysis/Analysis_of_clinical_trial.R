@@ -41,6 +41,3 @@ aggregate(dat[, 3:7], list(TRT=dat$TRT), mean)
 dat = reshape(dat, direction='long', idvar = c('subject', 'trt', 'age', 'sex','diff'), sep='')
 
 
-
-
-
