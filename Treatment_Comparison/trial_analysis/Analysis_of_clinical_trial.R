@@ -38,7 +38,7 @@ t.test(diff.A, diff.B, alternative="less")
 #One Way-ANOVA for time changes
 aggregate(dat[, 3:7], list(TRT=dat$TRT), mean)
 
-head(dat)
+dat = reshape(dat, direction='long', idvar = c('subject', 'trt', 'age', 'sex','diff'), sep='')
 
 
 
